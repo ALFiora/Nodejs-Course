@@ -1,0 +1,63 @@
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 64px;
+    margin-bottom: 48;
+}
+
+body {
+    color: #333333;
+    font-family: arial;
+    max-width: 650px;
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main-content {
+    flex-grow: 1; 
+    /* Flex box
+    Allows a given elemento to grow as much as he need
+    */
+}
+
+footer {
+    color: #888888;
+    border-top: 1px solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px 0px;
+}
+
+/* A primeira palavra mostra onde você vai procurar
+e a segunda é o que você vai procurar */
+header a {
+    color: darkred;
+    margin-right: 16px;
+    text-decoration: none;
+}
+
+/* .<class name>, vamos adicionar o nome dessa classe
+no arquivo about.hbs */
+.portrait {
+    width: 250px;
+}
+
+input {
+    border: 1px solid #cccccc;
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+    border: 1px solid #888888;
+    background: #333333;
+    color: white;
+    padding: 8px;
+
+}
